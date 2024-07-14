@@ -27,3 +27,98 @@
  </div>
  </div>
  </div> 
+ 
+ <!-- category-edit -->
+ <div class="modal fade" id="editCatModal" data-bs-backdrop="static" data-bskeyboard="false" tabindex="-1">
+ <div class="modal-dialog modal-dialog-centered">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title">Edit Category</h5><button type="button"
+class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+ </div>
+ <form name="frmEditCategory" ng-submit="updateCategory()" novalidate>
+ <div class="modal-body">
+ <div class="mb-3">
+ <label for="title" class="col-form-label">Title:</label>
+ <input type="text" class="form-control" id="title" ngmodel="selectedCategory.title"
+ ng-class="{'is-invalid': frmEditCategory.title.$touched &&
+frmEditCategory.title.$invalid }" />
+ </div>
+ </div>
+ <div class="modal-footer">
+ <button type="button" class="btn btn-secondary" data-bsdismiss="modal">
+  Close
+ </button>
+ <button type="submit" class="btn btn-primary" data-bsdismiss="modal">
+ Save changes
+ </button>
+ </div>
+ </form>
+ </div>
+ </div>
+</div>
+
+ <!-- category-add -->
+ <div class="modal fade" id="addNewCatModal" data-bs-backdrop="static" databs-keyboard="false" tabindex="-1">
+ <div class="modal-dialog modal-dialog-centered">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title">Create Category</h5>
+ <button type="button" class="btn-close" data-bs-dismiss="modal"
+aria-label="Close"></button>
+ </div>
+ <form name="frmAddCategory" ng-submit="addNewCategory()" novalidate>
+ <div class="modal-body">
+ <div class="mb-3">
+ <label for="title" class="col-form-label">Title:<span
+class="text-red">*</span></label>
+ <input type="text" class="form-control" id="title"
+ ng-class="{'is-invalid': frmAddCategory.title.$touched &&
+frmAddCategory.title.$invalid }"
+ ng-model="newCategory.title" required />
+ </div>
+ </div>
+ <div class="modal-footer">
+ <button type="button" class="btn btn-secondary" data-bsdismiss="modal">
+ Close
+ </button>
+ <button type="submit" class="btn btn-primary" data-bsdismiss="modal">
+ Save changes
+ </button>
+ </div>
+ </form>
+ </div>
+ </div>
+</div> 
+
+
+ <!-- category-delete -->
+ <div class="modal fade" id="deleteCatModal" data-bs-backdrop="static" databs-keyboard="false" tabindex="-1">
+ <div class="modal-dialog modal-dialog-centered">
+ <div class="modal-content">
+ <div class="modal-header">
+ <h5 class="modal-title">Delete Category</h5>
+ <button type="button" class="btn-close" data-bs-dismiss="modal"
+aria-label="Close"></button>
+ </div>
+ <div class="modal-body">
+ <p>
+ Are you sure! you want to delete '{{selectedCategory.title}}'
+ category?
+ </p>
+ </div>
+ <div class="modal-footer">
+ <button type="button" class="btn btn-secondary" data-bsdismiss="modal">
+ Close
+ </button>
+ <button class="btn btn-danger" ng-click="deleteCategory()" data-bsdismiss="modal">
+ Delete
+ </button>
+ </div>
+ </div>
+ </div>
+</div> 
+
+ 
+
+ 
