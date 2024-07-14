@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/67849e5d-ca44-4f68-ae29-0baf54a2bb58)**Name**: Joshi Dev Samirbhai
+**Name**: Joshi Dev Samirbhai
 **Company**: CODTECH IT SOLUTIONS
 **ID**: CT2CC3284
 **Domain**: CLOUD COMPUTING
@@ -7,7 +7,19 @@
 ## Overview of the Project
 
 ### Project: DEPLOYING A WEB APPLICATION ON AWS 
+![image](https://github.com/user-attachments/assets/8147ebf0-6f07-4767-8d22-4c8d8d83d43d)
 
+
+![image](https://github.com/user-attachments/assets/04897172-a22f-4dfa-bbf1-977c358696a1)
+
+
+![image](https://github.com/user-attachments/assets/bd8317b2-2049-47a2-b2d0-d8e82115c437)
+
+
+![image](https://github.com/user-attachments/assets/0d527085-5023-4bfa-a8aa-f7b8faab41ca)
+
+
+![image](https://github.com/user-attachments/assets/990b62b0-fb23-4bbc-838e-aa558e0db4d7)
 
 
 
