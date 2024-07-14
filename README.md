@@ -6,8 +6,9 @@
 
 ## Overview of the Project
 
-### Project: DEPLOYING A WEB APPLICATION ON AWS 
-![image](https://github.com/user-attachments/assets/8147ebf0-6f07-4767-8d22-4c8d8d83d43d)
+### Project: CREATING A STATIC WEBSITE WITH GOOGLE CLOUD STORAGE   
+
+![Screenshot 2024-07-13 121827](https://github.com/user-attachments/assets/d429ce19-e8dd-4742-b416-80de1e2f20f5)  
 
 
 ![image](https://github.com/user-attachments/assets/04897172-a22f-4dfa-bbf1-977c358696a1)
@@ -27,22 +28,23 @@
 
 
 ### Objective
-Learn how to deploy a simple web application using Amazon Web Services
-(AWS). This project will teach the basics of cloud deployment, including
-setting up a server and configuring the web application.
+Host a static website using Google Cloud Storage. This project
+involves creating a simple HTML/CSS website and deploying it
+to Google Cloud.
 
 ### Key Activities
-- **Coding**: Preparing a simple website.
-- **AWS Cloud**: Creating a account on AWS cloud.
+- **Coding**: Preparing a static website.
+- **Google Cloud**: Creating a account on google cloud.
 - **Deploying Website**: Deploy prepared website on amazon web server.
 
 ### Technologies Used
 - **Html**: Used for making website.
 - **CSS**: Used for decorating and add extra styling to the website.
-- **AWS**: Used to deploy our website.
+- **Javascript**: Used to add functionality to the website.   
+- **AngularJS**: Used to easy the work of javascript.  
+- **Javascript**: Used to add functionality to the website.
+- **google cloud**: Used to host the website.   
 
-
-
+ 
 
 This project provides a comprehensive overview of deploying a website on amazon web server.
-
